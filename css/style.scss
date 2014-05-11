@@ -1,1 +1,28 @@
-﻿
+﻿$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+@mixin border-radius ($radius) {
+	border-radius: $radius;
+}
+
+
+body { 
+  font: 100% $font-stack;
+  color: $primary-color;
+} 
+.menu { 
+	.menu__list {
+		.menu__list__item {
+			float: left;
+			margin-right: 10px;
+			list-style: none;
+		}
+	}
+}
+
+.box {
+	margin: 20px auto;
+	width: 500px;
+	height: 300px;
+	background: #000;
+	@include border-radius (10px);
+}

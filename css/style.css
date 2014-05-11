@@ -1,1 +1,21 @@
-﻿
+/* line 8, style.scss */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333333;
+}
+
+/* line 14, style.scss */
+.menu .menu__list .menu__list__item {
+  float: left;
+  margin-right: 10px;
+  list-style: none;
+}
+
+/* line 22, style.scss */
+.box {
+  margin: 20px auto;
+  width: 500px;
+  height: 300px;
+  background: #000;
+  border-radius: 10px;
+}
